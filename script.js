@@ -18,12 +18,24 @@ const questions = [
 const predefinedPoints = [
     { name: "Hamza Berk", vector: [14, -4, -15] },
     { name: "Kayra (_Q_)", vector: [-10, -5, -1] },
-    { name: "Safsata Canavarı (Saca)", vector: [24, 21, -15] },
+    { name: "Safsata Canavarı ya da Kailyn", vector: [24, 21, -15] },
     { name: "Habil Ademoğlu", vector: [21, 6, -16] },
     { name: "Sirius", vector: [-27, -11, 13] },
     { name: "Zeynep (feminist)", vector: [-7, -18, 12] },
 
 ];
+
+const resultImages = {
+  "Hamza Berk": 'photos/hamza.png',
+  "Kayra (_Q_)": 'photos/kayra.png',
+  "Safsata Canavarı ya da Kailyn": 'photos/kailyn.jpg',
+  "Habil Ademoğlu": 'photos/habil.jpg',
+  "Sirius": 'photos/sirius.jpg',
+  "Zeynep (feminist)": 'photos/zeynep.png'
+    
+  // Add more results and corresponding image paths
+};
+
 
 const quizContainer = document.getElementById("quiz-container");
 const submitButton = document.getElementById("submit-btn");
@@ -65,6 +77,9 @@ submitButton.addEventListener("click", () => {
             closestMatch = point.name;
         }
     });
-
+    
+    const imagePath = resultImages[closestMatch];
+    document.getElementById("result-img").src = imagePath;
+    
     resultText.textContent = `Sen : ${closestMatch}`;
 });

@@ -35,7 +35,7 @@ const resultImages = {
   "Sirius": 'photos/sirius.jpg',
   "Zeynep (feminist)": 'photos/zeynep.png',
   "Berat Mutluhan Seferoğlu": 'photos/bms.png',
-  "misshyptia (gülizar esma)": 'photos/gulizaresma.jpg'
+  "misshyptia (gülizar esma)": 'photos/esma.jpg'
     
   // Add more results and corresponding image paths
 };

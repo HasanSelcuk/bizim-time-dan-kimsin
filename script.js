@@ -21,6 +21,7 @@ const predefinedPoints = [
     { name: "Safsata Canavarı ya da Kailyn", vector: [24, 21, -15] },
     { name: "Habil Ademoğlu", vector: [21, 6, -16] },
     { name: "Sirius", vector: [-27, -11, 13] },
+    { name: "Berat Mutluhan Seferoğlu", vector: [-23, 5, 2] },
     { name: "Zeynep (feminist)", vector: [-7, -18, 12] },
 
 ];
@@ -31,7 +32,8 @@ const resultImages = {
   "Safsata Canavarı ya da Kailyn": 'photos/kailyn.jpg',
   "Habil Ademoğlu": 'photos/habil.jpg',
   "Sirius": 'photos/sirius.jpg',
-  "Zeynep (feminist)": 'photos/zeynep.png'
+  "Zeynep (feminist)": 'photos/zeynep.png',
+  "Berat Mutluhan Seferoğlu": 'photos/bms.png'
     
   // Add more results and corresponding image paths
 };

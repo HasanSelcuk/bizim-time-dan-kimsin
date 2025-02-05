@@ -23,7 +23,7 @@ const predefinedPoints = [
     { name: "Sirius", vector: [-27, -11, 13] },
     { name: "Berat Mutluhan Seferoğlu", vector: [-23, 5, 2] },
     { name: "misshyptia (gülizar esma)", vector: [-32, -22, 18] },
-    { name: "Zeynep (feminist)", vector: [-7, -18, 12] },
+    { name: "Zeynep (feminist)", vector: [-7, -18, 12] }
 
 ];
 
